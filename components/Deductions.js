@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import styled from 'styled-components'
-import Item from '../components/Item'
+import Item from './item'
 
 const Layout = styled.div``
 
