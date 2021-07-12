@@ -49,7 +49,12 @@ const Home = () => {
 
   return (
     <Layout>
-      <h1>Grocery Calculator</h1>
+      <h1>Cost Splitter</h1>
+      <p>
+        Use this for splitting long lists of items by entering and deselcting
+        only the items from the list that one or more people do not want to pay
+        for
+      </p>
       <Form>
         <div>
           Total (including tax):{' '}
