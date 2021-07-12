@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import styled from 'styled-components'
-import Deductions from '../components/deductions'
+import Deductions from '../components/deduction-list'
 
 const Layout = styled.div`
   display: flex;

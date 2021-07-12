@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styled from 'styled-components'
-import Item from './item'
+import Item from './item-deduction'
 
 const Layout = styled.div``
 
