@@ -31,7 +31,7 @@ const Home = () => {
     Lucas: 0,
     Jerry: 0,
     Wyatt: 0,
-    Jack: 0
+    Jack: 0,
   })
 
   const [total, setTotal] = useState('')
