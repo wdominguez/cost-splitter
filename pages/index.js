@@ -8,6 +8,10 @@ const Layout = styled.div`
   padding: 10px;
 `
 
+const Text = styled.span`
+  margin: 10px 0;
+`
+
 const Form = styled.div`
   display: flex;
   flex-direction: column;
@@ -50,11 +54,15 @@ const Home = () => {
   return (
     <Layout>
       <h1>Cost Splitter</h1>
-      <p>
+      <Text>
         Use this for splitting long lists of items by entering and deselcting
         only the items from the list that one or more people do not want to pay
         for
-      </p>
+      </Text>
+      <Text>
+        KNOWN BUG: DO NOT ATTEMPT TO DELETE AN ITEM UNLESS IT IS THE MOST
+        RECENTLY ADDED ONE
+      </Text>
       <Form>
         <div>
           Total (including tax):{' '}
